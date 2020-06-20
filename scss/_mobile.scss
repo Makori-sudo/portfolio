@@ -22,6 +22,15 @@
       line-height: 1;
       margin-bottom: 1rem;
     }
+
+    // Grid columns responsiveness
+    .contacts {
+      grid-template-areas:
+        "contact1"
+        "contact2"
+        "contact3";
+      grid-template-columns: 1fr;
+    }
   }
 
   ul.menu-nav,
@@ -52,10 +61,12 @@
     }
   }
 
+  // Grid columns responsiveness
   .about-info {
     grid-template-areas:
       "bioimage"
       "bio"
+      "service"
       "job1"
       "job2"
       "job3";

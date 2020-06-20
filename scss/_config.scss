@@ -1,4 +1,4 @@
-$primary-color: #444;
+$primary-color: #2d4159;
 $secondary-color: #00bbc9;
 $show-home-image: true;
 $home-image: url(../img/background.jpg);
@@ -17,7 +17,8 @@ $background-opacity: 0.9;
 
       &:after {
         content: "";
-        position: absolute;
+        // position: absolute;
+        position: fixed; /* Making the 'overlay div' cover the entire page */
         top: 0;
         right: 0;
         width: 100%;
