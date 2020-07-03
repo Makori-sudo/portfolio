@@ -56,10 +56,9 @@
     .menu-branding.show {
       transform: translate3d(0, 0, 0); }
     .menu-branding .portrait {
-      width: 250px;
-      height: 250px;
-      background-repeat: no-repeat;
-      background: url("../img/portrait.jpg");
+      width: 350px;
+      height: 350px;
+      background: url("../img/profile1.jpg") no-repeat center center/cover;
       border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
       border: 3px solid #00bbc9; }
   .menu .nav-item {
@@ -170,7 +169,7 @@ main {
     margin-top: 1rem; }
     main .icons a {
       padding: 0.4rem; }
-      main .icons a:hover {
+      main .icons a:h {
         color: #00bbc9;
         transition: all 0.5s ease-out; }
   main#home {
@@ -186,6 +185,9 @@ main {
   .about-info .bio-image {
     grid-area: bioimage;
     margin: auto;
+    width: 350px;
+    height: 350px;
+    background: no-repeat center center/cover;
     border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
     border: #00bbc9 3px solid; }
   .about-info .bio {
@@ -286,7 +288,7 @@ main {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
-      background: url("../img/portrait_small.jpg");
+      background: url("../img/profile1.jpg") no-repeat center center/cover;
       width: 150px;
       height: 150px; }
   .about-info {
