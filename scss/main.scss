@@ -127,6 +127,10 @@ main {
   .bio {
     grid-area: bio;
     font-size: 1.5rem;
+
+    p {
+      font-size: 1.25rem;
+    }
   }
 
   .services {
@@ -209,6 +213,7 @@ main {
 
   .footer-items {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 
     .right-item i {

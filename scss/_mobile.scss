@@ -7,6 +7,20 @@
 
 // Desktops & Laptops
 @include mediaLg {
+  .about-info {
+    grid-template-areas:
+      "bioimage bio"
+      "service service"
+      "job1 job2"
+      "job3 job3";
+    grid-template-columns: repeat(2, 1fr);
+
+    .bio-image {
+      width: 250px;
+      height: 250px;
+    }
+  }
+
   .projects {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -19,6 +33,7 @@
     text-align: center;
 
     .lg-heading {
+      font-size: 4rem;
       line-height: 1;
       margin-bottom: 1rem;
     }
@@ -71,6 +86,15 @@
       "job2"
       "job3";
     grid-template-columns: 1fr;
+
+    .bio-image {
+      width: 250px;
+      height: 250px;
+    }
+
+    .bio p {
+      font-size: 1.2rem;
+    }
   }
 
   .projects {
@@ -84,7 +108,40 @@
     margin-top: 10vh;
   }
 
+  main .lg-heading {
+    font-size: 2.5rem;
+  }
+
+  main .contacts .contact-item {
+    border: none;
+    text-align: left;
+    margin-bottom: -1rem;
+  }
+
+  #home .icons {
+    margin-top: 3rem;
+  }
+
+  .about-info {
+    .bio-image {
+      width: 180px;
+      height: 180px;
+    }
+
+    .bio p {
+      font-size: 1.08rem;
+    }
+  }
+
   .projects {
     grid-template-columns: 1fr;
+  }
+
+  #main-footer .footer-items .left-item {
+    font-size: 0.8rem;
+  }
+
+  #main-footer .footer-items .right-item i {
+    font-size: 0.8rem;
   }
 }
