@@ -74,7 +74,7 @@
   width: 350px;
   height: 350px;
   background: url("../img/profile1.jpg") no-repeat center center/cover;
-  border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+  border-radius: 100%;
   border: 3px solid #00bbc9;
 }
 .menu .nav-item {
@@ -236,10 +236,10 @@ main#home h1 {
 .about-info .bio-image {
   grid-area: bioimage;
   margin: auto;
-  width: 350px;
-  height: 350px;
+  width: 400px;
+  height: 400px;
   background: no-repeat center center/cover;
-  border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+  border-radius: 100%;
   border: #00bbc9 3px solid;
 }
 .about-info .bio {
