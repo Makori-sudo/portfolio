@@ -179,6 +179,7 @@ header {
 
 .text-secondary {
   color: #00bbc9;
+  font-weight: 700;
 }
 
 main {
@@ -265,8 +266,8 @@ main#home h1 {
 .about-info .job {
   background: #364d6a;
   padding: 0.5rem;
-  border-bottom: #00bbc9 6px solid;
-  border-radius: 70px 0px 70px 30px;
+  /* border-bottom: #00bbc9 6px solid; */
+  /* border-radius: 70px 0px 70px 30px; */
   text-align: center;
 }
 
